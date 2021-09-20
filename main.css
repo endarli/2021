@@ -55,7 +55,6 @@ ul {
     margin-bottom: 50px;
     list-style: none; 
     display: table;
-    width: 80%;
 }
 
 li { 
@@ -80,10 +79,6 @@ a {
     display: inline-block;
     padding: 15px 20px;
     position: relative;
-}
-
-b {
-    padding: 15px 100px;
 }
 
 a.active {
@@ -172,4 +167,11 @@ a:hover:after {
 .center {
     padding-left: 45%;
 
+}
+
+.navul {
+    justify-self: center;
+}
+.normul {
+    width: 80%;
 }
