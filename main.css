@@ -165,7 +165,9 @@ a:hover:after {
 }
 
 .center {
-    padding-left: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
 }
 
