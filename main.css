@@ -1,0 +1,156 @@
+body {
+    /* font-family: 'Playfair Display', serif; */
+    font: bold 14px/1.4 'Open Sans', arial, sans-serif;
+    background-color: lightsteelblue;
+    color: grey;
+
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    color: grey;
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    font-family: 'Helvetica';
+    color: grey;
+    background-color: white;
+    width: 300px;
+    height: fit-content;
+    text-align: justify;
+    font-weight: lighter;
+    padding: 10px 15px 40px 15px;
+    box-shadow: 2px 2px 4px #688EC0;
+}
+
+p1 {
+    font-size: 20px;
+    font-weight: 550;
+}
+
+p2 {
+    font-size: 16px;
+}
+
+p3 {
+    color: #B0DEDC;
+    padding-left: 99%;
+}
+
+p4 {
+    color:thistle;
+    background-color: white;
+}
+
+pi {
+    font-size: 16px;
+    font-style: italic;
+}
+
+div {
+    font: bold 44px Playfair Display;
+    color: lightsalmon;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+div2 {
+    font: bold 44px Playfair Display;
+    color: lightsalmon;
+    text-transform: uppercase;
+    text-align: left;
+    padding-left: 10%;
+}
+
+ul {
+    padding-left: 0px;
+    margin-bottom: 50px; 
+    list-style: none; 
+    display: table;
+    width: 100%;
+    text-align: center;
+}
+
+li { 
+    display: table-cell; 
+    position: relative; 
+    padding: 15px 0;
+}
+
+button {
+    background-color: lavender;
+    border-radius: 16px;
+    padding: 7px;
+    vertical-align: 6px;
+}
+
+a {
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.15em;
+    
+    display: inline-block;
+    padding: 15px 20px;
+    position: relative;
+}
+
+b {
+    padding: 15px 100px;
+}
+
+a.active {
+    color: #96A0D9;
+}
+
+a:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #fff;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+
+a:hover:after { 
+    width: 100%; 
+    left: 0;
+}
+
+@media screen and (max-height: 300px) {
+    ul {
+        margin-top: 40px;
+    }
+}
+
+/* classes */
+
+.cropped1 {
+    width: 220px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.rows {
+    display: table-row;
+    font: bold 17px 'Courier New', Courier;
+    color: ghostwhite;
+    line-height: 30px;
+    border-spacing: 0 30px;
+}
+
+.slide {
+    padding: 10px 0;
+    height: 70vh;
+    width: auto;
+    text-align: right;
+    
+}
