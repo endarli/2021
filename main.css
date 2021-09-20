@@ -19,7 +19,7 @@ p {
     font-family: 'Helvetica';
     color: grey;
     background-color: white;
-    width: 300px;
+    width: 350px;
     height: fit-content;
     text-align: justify;
     font-weight: lighter;
@@ -157,11 +157,21 @@ a:hover:after {
 }
 
 .div2 {
-    font: bold 44px Playfair Display;
-    color: lightsalmon;
-    text-transform: uppercase;
+    font: bold 30px Playfair Display;
+    color: #96A0D9;
     text-align: left;
     padding-left: 10%;
+}
+
+.div3 {
+    font: bold 44px Playfair Display;
+    border-bottom: 4px white dashed;
+    width: fit-content;
+    text-transform: uppercase;
+    color: lightsalmon;
+    text-align: left;
+    padding-right: 10%;
+    margin: 0 0 18px 10%;
 }
 
 .center {
