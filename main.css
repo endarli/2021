@@ -180,6 +180,27 @@ a:hover:after {
 .navul {
     justify-self: center;
 }
+
 .normul {
     width: 80%;
+}
+
+.aboutme {
+    margin: 15px auto;
+    width: 600px;
+    flex-direction: column;
+    display: flex;
+    padding: 0;
+}
+
+.rowsMe {
+    padding-top: 0;
+    display: table-row;
+    font: bold 17px 'Courier New', Courier;
+    justify-content: center;
+    border-spacing: 0 30px;
+    color: ghostwhite;
+    line-height: 30px;
+    display: flex;
+    width: 100%;
 }
